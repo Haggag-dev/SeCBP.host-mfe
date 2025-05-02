@@ -1,8 +1,9 @@
-import Header from "products_app/Header";
+import Header from "./components/Header";
+
 function App() {
   return (
     <div className="">
-      <Header rightNav="Host-app"/>
+      <Header />
     </div>
   );
 }
