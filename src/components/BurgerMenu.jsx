@@ -5,7 +5,7 @@ const BurgerMenu = () => {
   const [toggleMenu, setToggle] = useToggleMenu();
 
   return (
-    <div className="sm:hidden flex items-end">
+    <div className="flex items-end">
       <button
         onClick={() => setToggle(!toggleMenu)}
         className="text-2xl cursor-pointer"

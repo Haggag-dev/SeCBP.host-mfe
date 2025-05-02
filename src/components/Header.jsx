@@ -22,7 +22,9 @@ const Header = ({ addProductLinks, rightNav, hideRightNav }) => {
             >
               {rightNav}
             </a>
-            {addProductLinks ? <BurgerMenu /> : null}
+            <div className="sm:hidden">
+              {addProductLinks ? <BurgerMenu /> : null}
+            </div>
           </div>
         </div>
       </div>

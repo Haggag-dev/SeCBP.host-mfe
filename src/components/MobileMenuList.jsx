@@ -6,12 +6,8 @@ const MobileMenuLinks = ({ links }) => {
   const [activeLink, setActiveLink] = useActiveLinkAtom();
 
   return (
-    <nav className="sm:hidden">
-      <ul
-        className={`flex flex-col text-sm gap-y-3 py-3 px-8 ${
-          !toggleMenu ? "hidden" : ""
-        }`}
-      >
+    <nav className={`sm:hidden ${!toggleMenu ? "hidden" : ""}`}>
+      <ul className="flex flex-col text-sm gap-y-3 py-3 px-8">
         {links.map((link, index) => (
           <li key={index} className="h-8">
             <a
