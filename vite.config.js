@@ -10,12 +10,8 @@ export default defineConfig({
     tailwindcss(),
     federation({
       name: "host-app",
-      filename: "remoteEntry.js",
-      exposes: {
-        "./Header": "./src/components/Header",
-      },
       remotes: {
-        products_app: "http://localhost:5001/assets/remoteEntry.js",
+        orders_app: "http://localhost:5002/assets/remoteEntry.js",
       },
       shared: ["react", "react-dom"],
     }),

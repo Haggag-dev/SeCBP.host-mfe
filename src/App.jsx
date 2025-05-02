@@ -1,9 +1,13 @@
 import Header from "./components/Header";
+import OrdersApp from "orders_app/OrdersApp";
 
 function App() {
   return (
     <div className="">
-      <Header />
+      <header>
+        <Header />
+      </header>
+      <OrdersApp />
     </div>
   );
 }
