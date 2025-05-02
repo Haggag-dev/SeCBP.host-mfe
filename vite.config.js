@@ -12,8 +12,9 @@ export default defineConfig({
       name: "host-app",
       remotes: {
         orders_app: "http://localhost:5002/assets/remoteEntry.js",
+        products_app: "http://localhost:5003/assets/remoteEntry.js",
       },
-      shared: ["react", "react-dom"],
+      shared: ["react", "react-dom", "tailwindcss"],
     }),
   ],
   build: {
