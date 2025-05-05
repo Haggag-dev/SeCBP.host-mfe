@@ -48,6 +48,6 @@ After completing the above step, navigate outside the `host-mfe` project directo
   docker compose -p host-mfe up
 ```
 
-_Finally, browse to http://localhost:5001/_
+_Finally, browse to http://localhost:5001/products_
 
    
