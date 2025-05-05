@@ -6,7 +6,7 @@ This is the host micro-frontend (`host-mfe`) of my bachelor/graduation project.
 
 More details about the application will be documented soon. However, an overview of the entire application, including more details on the backend, is already available [here](https://github.com/Haggag-dev/SeCBP.back-end/tree/main?tab=readme-ov-file#bachelorgraduation-project).
 
-## Instruction for Running the Back-end
+## Instruction for Running the Frontend
 
 _⚠️Please follow the order of the following instructions_ 
 
