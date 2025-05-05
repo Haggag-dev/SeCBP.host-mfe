@@ -8,7 +8,7 @@ More details about the application will be documented soon. However, an overview
 
 ## Instruction for Running the Frontend
 
-_⚠️Please follow the order of the following instructions_ 
+_⚠ Please follow the order of the following instructions_ 
 
 ### Pre-requistes
 - If you do not have the backend installed and running yet, please follow the instructions provided [this link](https://github.com/Haggag-dev/SeCBP.back-end/blob/main/README.md#instructions-for-running-the-back-end) before proceeding further.
