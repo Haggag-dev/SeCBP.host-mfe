@@ -20,7 +20,11 @@ _⚠ Please follow the order of the following instructions_
 2. Then execute the following commands:
 ```sh
   cd SeCBP.order-mfe
+
   pnpm i
+
+  pnpm build
+
   docker compose -p order-mfe up
 ```
 
@@ -32,7 +36,11 @@ After completing the above step, navigate outside the `order-mfe` project direct
 2. Then execute the following commands:
 ```sh
   cd SeCBP.product-mfe
+
   pnpm i
+
+  pnpm build
+
   docker compose -p product-mfe up
 ```
 
@@ -44,7 +52,11 @@ After completing the above step, navigate outside the `host-mfe` project directo
 2. Then execute the following commands:
 ```sh
   cd SeCBP.host-mfe
+
   pnpm i
+
+  pnpm build
+
   docker compose -p host-mfe up
 ```
 
