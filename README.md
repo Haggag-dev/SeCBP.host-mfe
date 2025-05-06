@@ -4,14 +4,14 @@ This is the host micro-frontend (`host-mfe`) of my bachelor/graduation project.
 
 ## Application
 
-More details about the application will be documented soon. However, an overview of the entire application, including more details on the backend, is already available [here](https://github.com/Haggag-dev/SeCBP.back-end/tree/main?tab=readme-ov-file#bachelorgraduation-project).
+More details about the application will be documented soon. However, an overview of the entire application, including more details on the backend, is already available [here](https://github.com/Haggag-dev/SeCBP.back-end?tab=readme-ov-file#bachelorgraduation-project).
 
 ## Instruction for Running the Frontend
 
 _⚠ Please follow the order of the following instructions_ 
 
 ### Pre-requistes
-- If you do not have the backend installed and running yet, please follow the instructions provided through [this link](https://github.com/Haggag-dev/SeCBP.back-end?tab=readme-ov-file) before proceeding further.
+- If you do not have the backend installed and running yet, please follow the instructions provided through [this link](https://github.com/Haggag-dev/SeCBP.back-end?tab=readme-ov-file#instructions-for-running-the-back-end) before proceeding further.
 - [Install pnpm.](https://pnpm.io/installation)
 
 ### Order Micro-frontend
