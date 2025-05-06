@@ -19,7 +19,7 @@ _⚠ Please follow the order of the following instructions_
 1. Clone this repository: https://github.com/Haggag-dev/SeCBP.order-mfe
 2. Then execute the following commands:
 ```sh
-  cd order-mfe
+  cd SeCBP.order-mfe
   pnpm i
   docker compose -p order-mfe up
 ```
@@ -31,7 +31,7 @@ After completing the above step, navigate outside the `order-mfe` project direct
 1. Clone this repository: https://github.com/Haggag-dev/SeCBP.product-mfe
 2. Then execute the following commands:
 ```sh
-  cd product-mfe
+  cd SeCBP.product-mfe
   pnpm i
   docker compose -p product-mfe up
 ```
@@ -43,7 +43,7 @@ After completing the above step, navigate outside the `host-mfe` project directo
 1. Clone this repository: https://github.com/Haggag-dev/SeCBP.host-mfe
 2. Then execute the following commands:
 ```sh
-  cd host-mfe
+  cd SeCBP.host-mfe
   pnpm i
   docker compose -p host-mfe up
 ```
